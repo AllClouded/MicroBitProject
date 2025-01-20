@@ -9,7 +9,7 @@ for p in ports:
 
 
 try:
-    port = serial.Serial('/dev/ttyS1', 115200)
+    port = serial.Serial('/dev/ttyACM0', 115200)
 
     print("Started")
 
